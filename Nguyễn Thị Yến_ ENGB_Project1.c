@@ -307,7 +307,6 @@ void studentMenu(int *choiceStudentMenu, int *numberStudent, struct Student *sv,
                 
         }
     }while(*choiceStudentMenu!=0);
-   // }while(*choose!='0');
 }
 void startStudentMenu(int *choiceStudentMenu){
     printf("***Student Management System Using C***");
@@ -324,7 +323,6 @@ void startStudentMenu(int *choiceStudentMenu){
     printf("\t\t========================\n");
     printf("\t\tEnter The Choice: ");
     scanf("%d", choiceStudentMenu);
-    system("clearn");
 }
 char showAllStudent(int *numberStudent, struct Student *sv, char *choose){
     printf("\t\t\t**** All Student **** \n\n");
